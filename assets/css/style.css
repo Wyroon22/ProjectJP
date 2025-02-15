@@ -315,4 +315,26 @@ header {
             }
         }
     }
+
+    @media screen and (max-width: 768px) {
+        height: auto;
+        padding: 3rem 0;
+        
+    }
+}
+
+/* Satay Section */
+
+.satay {
+    background: url(../img/chicken-satay-bg-black.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    color: var(--white);
+
+    .satay-wrapper {
+        display: flex;
+        align-items: center;
+        height: 800px;
+    }
 }
